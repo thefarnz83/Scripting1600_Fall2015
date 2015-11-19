@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 051ca64babfa9c84b8cb61f24dd11268
-timeCreated: 1446578114
+timeCreated: 1447780554
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - spherePrefab: {fileID: 5406958, guid: 7a0289538e6e2fc47a75201b461b3495, type: 2}
+  - spawnpoint: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

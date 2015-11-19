@@ -10,6 +10,7 @@ public class DuckSpawn : MonoBehaviour
 	{
 		if (Hit.transform.tag == "Dog") 
 		{
+			Debug.Log("Hit");
 			Rigidbody sphereInstance;
 			sphereInstance = Instantiate (spherePrefab, spawnpoint.position, spawnpoint.rotation)as Rigidbody;
 		}
